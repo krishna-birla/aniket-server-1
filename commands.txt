@@ -1,0 +1,300 @@
+krishna:Aniket krishna.birla$ openapi-generator generate -i ./service.yml -g java
+[main] INFO  o.o.codegen.DefaultGenerator - Generating with dryRun=false
+[main] INFO  o.o.c.ignore.CodegenIgnoreProcessor - No .openapi-generator-ignore file found.
+[main] INFO  o.o.codegen.DefaultGenerator - OpenAPI Generator: java (client)
+[main] INFO  o.o.codegen.DefaultGenerator - Generator 'java' is considered stable.
+[main] INFO  o.o.c.languages.AbstractJavaCodegen - Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[main] INFO  o.o.c.languages.AbstractJavaCodegen - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[main] INFO  o.o.c.languages.AbstractJavaCodegen - Processing operation null
+[main] INFO  o.o.c.languages.AbstractJavaCodegen - Processing operation null
+[main] INFO  o.o.c.languages.AbstractJavaCodegen - Processing operation null
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/model/Amount.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/client/model/AmountTest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./docs/Amount.md
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/model/AuthorizationRequest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/client/model/AuthorizationRequestTest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./docs/AuthorizationRequest.md
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/model/AuthorizationResponse.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/client/model/AuthorizationResponseTest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./docs/AuthorizationResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/model/DebitCredit.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/client/model/DebitCreditTest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./docs/DebitCredit.md
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/model/Error.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/client/model/ErrorTest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./docs/Error.md
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/model/LoadRequest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/client/model/LoadRequestTest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./docs/LoadRequest.md
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/model/LoadResponse.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/client/model/LoadResponseTest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./docs/LoadResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/model/Ping.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/client/model/PingTest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./docs/Ping.md
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/model/ResponseCode.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/client/model/ResponseCodeTest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./docs/ResponseCode.md
+[main] WARN  o.o.codegen.DefaultCodegen - Empty operationId found for path: get /ping. Renamed to auto-generated operationId: pingGet
+[main] WARN  o.o.codegen.DefaultCodegen - Empty operationId found for path: put /authorization/{messageId}. Renamed to auto-generated operationId: authorizationMessageIdPut
+[main] WARN  o.o.c.languages.AbstractJavaCodegen - Ignoring complex example on request body
+[main] WARN  o.o.codegen.DefaultCodegen - Empty operationId found for path: put /load/{messageId}. Renamed to auto-generated operationId: loadMessageIdPut
+[main] WARN  o.o.c.languages.AbstractJavaCodegen - Ignoring complex example on request body
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/api/DefaultApi.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/client/api/DefaultApiTest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./docs/DefaultApi.md
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file ./pom.xml
+[main] INFO  o.o.codegen.TemplateManager - writing file ./README.md
+[main] INFO  o.o.codegen.TemplateManager - writing file ./build.gradle
+[main] INFO  o.o.codegen.TemplateManager - writing file ./build.sbt
+[main] INFO  o.o.codegen.TemplateManager - writing file ./settings.gradle
+[main] INFO  o.o.codegen.TemplateManager - writing file ./gradle.properties
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/AndroidManifest.xml
+[main] INFO  o.o.codegen.TemplateManager - writing file ./.travis.yml
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/ApiClient.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/ServerConfiguration.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/ServerVariable.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./.github/workflows/maven.yml
+[main] INFO  o.o.codegen.TemplateManager - writing file ./api/openapi.yaml
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/StringUtil.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/auth/HttpBasicAuth.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/auth/HttpBearerAuth.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/auth/ApiKeyAuth.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./gradlew
+[main] INFO  o.o.codegen.TemplateManager - writing file ./gradlew.bat
+[main] INFO  o.o.codegen.TemplateManager - writing file ./gradle/wrapper/gradle-wrapper.properties
+[main] INFO  o.o.codegen.TemplateManager - writing file /Users/krishna.birla/Assets/Aniket/./gradle/wrapper/gradle-wrapper.jar
+[main] INFO  o.o.codegen.TemplateManager - writing file ./git_push.sh
+[main] INFO  o.o.codegen.TemplateManager - writing file ./.gitignore
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/ApiException.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/Configuration.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/Pair.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/auth/Authentication.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/ApiCallback.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/ApiResponse.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/JSON.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/ProgressRequestBody.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/ProgressResponseBody.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/GzipRequestInterceptor.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/client/model/AbstractOpenApiSchema.java
+[main] INFO  o.o.codegen.TemplateManager - writing file /Users/krishna.birla/Assets/Aniket/./.openapi-generator-ignore
+[main] INFO  o.o.codegen.TemplateManager - writing file ./.openapi-generator/VERSION
+[main] INFO  o.o.codegen.TemplateManager - writing file ./.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+krishna:Aniket krishna.birla$ openapi-generator generate -i ./service.yml -g spring
+[main] INFO  o.o.codegen.DefaultGenerator - Generating with dryRun=false
+[main] INFO  o.o.codegen.DefaultGenerator - OpenAPI Generator: spring (server)
+[main] INFO  o.o.codegen.DefaultGenerator - Generator 'spring' is considered stable.
+[main] INFO  o.o.codegen.languages.SpringCodegen - ----------------------------------
+[main] INFO  o.o.c.languages.AbstractJavaCodegen - Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[main] INFO  o.o.c.languages.AbstractJavaCodegen - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[main] WARN  o.o.codegen.DefaultCodegen - Empty operationId found for path: GET /ping. Renamed to auto-generated operationId: pingGET
+[main] WARN  o.o.codegen.DefaultCodegen - Empty operationId found for path: PUT /authorization/{messageId}. Renamed to auto-generated operationId: authorizationMessageIdPUT
+[main] WARN  o.o.codegen.DefaultCodegen - Empty operationId found for path: PUT /load/{messageId}. Renamed to auto-generated operationId: loadMessageIdPUT
+[main] INFO  o.o.c.languages.AbstractJavaCodegen - Processing operation null
+[main] INFO  o.o.c.languages.AbstractJavaCodegen - Processing operation null
+[main] INFO  o.o.c.languages.AbstractJavaCodegen - Processing operation null
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/model/Amount.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/model/AuthorizationRequest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/model/AuthorizationResponse.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/model/DebitCredit.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/model/Error.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/model/LoadRequest.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/model/LoadResponse.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/model/Ping.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/model/ResponseCode.java
+[main] WARN  o.o.codegen.DefaultCodegen - Empty operationId found for path: get /ping. Renamed to auto-generated operationId: pingGet
+[main] WARN  o.o.codegen.DefaultCodegen - Empty operationId found for path: put /authorization/{messageId}. Renamed to auto-generated operationId: authorizationMessageIdPut
+[main] WARN  o.o.c.languages.AbstractJavaCodegen - Ignoring complex example on request body
+[main] WARN  o.o.codegen.DefaultCodegen - Empty operationId found for path: put /load/{messageId}. Renamed to auto-generated operationId: loadMessageIdPut
+[main] WARN  o.o.c.languages.AbstractJavaCodegen - Ignoring complex example on request body
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/api/AuthorizationApiController.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/api/AuthorizationApi.java
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/api/LoadApiController.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/api/LoadApi.java
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/api/PingApiController.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/api/PingApi.java
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file ./pom.xml
+[main] INFO  o.o.codegen.TemplateManager - writing file ./README.md
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/OpenApiGeneratorApplication.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/test/java/org/openapitools/OpenApiGeneratorApplicationTests.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/RFC3339DateFormat.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/resources/application.properties
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/configuration/HomeController.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/resources/openapi.yaml
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/configuration/SpringDocConfiguration.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/api/ApiUtil.java
+[main] INFO  o.o.codegen.TemplateManager - writing file ./src/main/java/org/openapitools/configuration/EnumConverterConfiguration.java
+[main] INFO  o.o.codegen.TemplateManager - Skipped ./.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
+[main] INFO  o.o.codegen.TemplateManager - writing file ./.openapi-generator/VERSION
+[main] INFO  o.o.codegen.TemplateManager - writing file ./.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+krishna:Aniket krishna.birla$ ll
+total 128
+drwxr-xr-x@ 21 krishna.birla  staff   672 Apr 25 23:46 .
+drwx------@ 19 krishna.birla  staff   608 Apr 25 23:38 ..
+drwxr-xr-x@  3 krishna.birla  staff    96 Apr 25 23:46 .github
+-rw-r--r--@  1 krishna.birla  staff   291 Apr 25 23:46 .gitignore
+drwxr-xr-x@  4 krishna.birla  staff   128 Apr 25 23:46 .openapi-generator
+-rw-r--r--@  1 krishna.birla  staff  1040 Apr 25 23:46 .openapi-generator-ignore
+-rw-r--r--@  1 krishna.birla  staff   410 Apr 25 23:46 .travis.yml
+-rw-r--r--@  1 krishna.birla  staff   850 Apr 25 23:46 README.md
+drwxr-xr-x@  3 krishna.birla  staff    96 Apr 25 23:46 api
+-rw-r--r--@  1 krishna.birla  staff  5026 Apr 25 23:46 build.gradle
+-rw-r--r--@  1 krishna.birla  staff  1318 Apr 25 23:46 build.sbt
+drwxr-xr-x@ 12 krishna.birla  staff   384 Apr 25 23:46 docs
+-rw-r--r--@  1 krishna.birla  staff  1830 Apr 25 23:46 git_push.sh
+drwxr-xr-x@  3 krishna.birla  staff    96 Apr 25 23:46 gradle
+-rw-r--r--@  1 krishna.birla  staff   436 Apr 25 23:46 gradle.properties
+-rw-r--r--@  1 krishna.birla  staff  8092 Apr 25 23:46 gradlew
+-rw-r--r--@  1 krishna.birla  staff  2696 Apr 25 23:46 gradlew.bat
+-rw-r--r--@  1 krishna.birla  staff  3316 Apr 25 23:46 pom.xml
+-rw-r--r--@  1 krishna.birla  staff  7520 Apr 25 23:31 service.yml
+-rw-r--r--@  1 krishna.birla  staff    40 Apr 25 23:46 settings.gradle
+drwxr-xr-x@  4 krishna.birla  staff   128 Apr 25 23:46 src
+
+SUCCEEDED
+
+krishna:Aniket krishna.birla$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/krishna.birla/Assets/Aniket/.git/
+krishna:Aniket krishna.birla$ git add .
+krishna:Aniket krishna.birla$ git commit -m "First commit"
+[master (root-commit) de62e38] First commit
+ 92 files changed, 10048 insertions(+)
+ create mode 100644 .github/workflows/maven.yml
+ create mode 100644 .gitignore
+ create mode 100644 .openapi-generator-ignore
+ create mode 100644 .openapi-generator/FILES
+ create mode 100644 .openapi-generator/VERSION
+ create mode 100644 .travis.yml
+ create mode 100644 README.md
+ create mode 100644 api/openapi.yaml
+ create mode 100644 build.gradle
+ create mode 100644 build.sbt
+ create mode 100644 docs/Amount.md
+ create mode 100644 docs/AuthorizationRequest.md
+ create mode 100644 docs/AuthorizationResponse.md
+ create mode 100644 docs/DebitCredit.md
+ create mode 100644 docs/DefaultApi.md
+ create mode 100644 docs/Error.md
+ create mode 100644 docs/LoadRequest.md
+ create mode 100644 docs/LoadResponse.md
+ create mode 100644 docs/Ping.md
+ create mode 100644 docs/ResponseCode.md
+ create mode 100644 git_push.sh
+ create mode 100644 gradle.properties
+ create mode 100644 gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 gradle/wrapper/gradle-wrapper.properties
+ create mode 100644 gradlew
+ create mode 100644 gradlew.bat
+ create mode 100644 pom.xml
+ create mode 100644 service.yml
+ create mode 100644 settings.gradle
+ create mode 100644 src/main/AndroidManifest.xml
+ create mode 100644 src/main/java/org/openapitools/OpenApiGeneratorApplication.java
+ create mode 100644 src/main/java/org/openapitools/RFC3339DateFormat.java
+ create mode 100644 src/main/java/org/openapitools/api/ApiUtil.java
+ create mode 100644 src/main/java/org/openapitools/api/AuthorizationApi.java
+ create mode 100644 src/main/java/org/openapitools/api/AuthorizationApiController.java
+ create mode 100644 src/main/java/org/openapitools/api/LoadApi.java
+ create mode 100644 src/main/java/org/openapitools/api/LoadApiController.java
+ create mode 100644 src/main/java/org/openapitools/api/PingApi.java
+ create mode 100644 src/main/java/org/openapitools/api/PingApiController.java
+ create mode 100644 src/main/java/org/openapitools/client/ApiCallback.java
+ create mode 100644 src/main/java/org/openapitools/client/ApiClient.java
+ create mode 100644 src/main/java/org/openapitools/client/ApiException.java
+ create mode 100644 src/main/java/org/openapitools/client/ApiResponse.java
+ create mode 100644 src/main/java/org/openapitools/client/Configuration.java
+ create mode 100644 src/main/java/org/openapitools/client/GzipRequestInterceptor.java
+ create mode 100644 src/main/java/org/openapitools/client/JSON.java
+ create mode 100644 src/main/java/org/openapitools/client/Pair.java
+ create mode 100644 src/main/java/org/openapitools/client/ProgressRequestBody.java
+ create mode 100644 src/main/java/org/openapitools/client/ProgressResponseBody.java
+ create mode 100644 src/main/java/org/openapitools/client/ServerConfiguration.java
+ create mode 100644 src/main/java/org/openapitools/client/ServerVariable.java
+ create mode 100644 src/main/java/org/openapitools/client/StringUtil.java
+ create mode 100644 src/main/java/org/openapitools/client/api/DefaultApi.java
+ create mode 100644 src/main/java/org/openapitools/client/auth/ApiKeyAuth.java
+ create mode 100644 src/main/java/org/openapitools/client/auth/Authentication.java
+ create mode 100644 src/main/java/org/openapitools/client/auth/HttpBasicAuth.java
+ create mode 100644 src/main/java/org/openapitools/client/auth/HttpBearerAuth.java
+ create mode 100644 src/main/java/org/openapitools/client/model/AbstractOpenApiSchema.java
+ create mode 100644 src/main/java/org/openapitools/client/model/Amount.java
+ create mode 100644 src/main/java/org/openapitools/client/model/AuthorizationRequest.java
+ create mode 100644 src/main/java/org/openapitools/client/model/AuthorizationResponse.java
+ create mode 100644 src/main/java/org/openapitools/client/model/DebitCredit.java
+ create mode 100644 src/main/java/org/openapitools/client/model/Error.java
+ create mode 100644 src/main/java/org/openapitools/client/model/LoadRequest.java
+ create mode 100644 src/main/java/org/openapitools/client/model/LoadResponse.java
+ create mode 100644 src/main/java/org/openapitools/client/model/Ping.java
+ create mode 100644 src/main/java/org/openapitools/client/model/ResponseCode.java
+ create mode 100644 src/main/java/org/openapitools/configuration/EnumConverterConfiguration.java
+ create mode 100644 src/main/java/org/openapitools/configuration/HomeController.java
+ create mode 100644 src/main/java/org/openapitools/configuration/SpringDocConfiguration.java
+ create mode 100644 src/main/java/org/openapitools/model/Amount.java
+ create mode 100644 src/main/java/org/openapitools/model/AuthorizationRequest.java
+ create mode 100644 src/main/java/org/openapitools/model/AuthorizationResponse.java
+ create mode 100644 src/main/java/org/openapitools/model/DebitCredit.java
+ create mode 100644 src/main/java/org/openapitools/model/Error.java
+ create mode 100644 src/main/java/org/openapitools/model/LoadRequest.java
+ create mode 100644 src/main/java/org/openapitools/model/LoadResponse.java
+ create mode 100644 src/main/java/org/openapitools/model/Ping.java
+ create mode 100644 src/main/java/org/openapitools/model/ResponseCode.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/main/resources/openapi.yaml
+ create mode 100644 src/test/java/org/openapitools/OpenApiGeneratorApplicationTests.java
+ create mode 100644 src/test/java/org/openapitools/client/api/DefaultApiTest.java
+ create mode 100644 src/test/java/org/openapitools/client/model/AmountTest.java
+ create mode 100644 src/test/java/org/openapitools/client/model/AuthorizationRequestTest.java
+ create mode 100644 src/test/java/org/openapitools/client/model/AuthorizationResponseTest.java
+ create mode 100644 src/test/java/org/openapitools/client/model/DebitCreditTest.java
+ create mode 100644 src/test/java/org/openapitools/client/model/ErrorTest.java
+ create mode 100644 src/test/java/org/openapitools/client/model/LoadRequestTest.java
+ create mode 100644 src/test/java/org/openapitools/client/model/LoadResponseTest.java
+ create mode 100644 src/test/java/org/openapitools/client/model/PingTest.java
+ create mode 100644 src/test/java/org/openapitools/client/model/ResponseCodeTest.java
+krishna:Aniket krishna.birla$ git remote add origin git@github.com:krishna-birla/aniket-server-1.git
+krishna:Aniket krishna.birla$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'github.com:krishna-birla/aniket-server-1.git'
+krishna:Aniket krishna.birla$ git push -u origin master
+Enumerating objects: 121, done.
+Counting objects: 100% (121/121), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (108/108), done.
+Writing objects: 100% (121/121), 122.40 KiB | 564.00 KiB/s, done.
+Total 121 (delta 32), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (32/32), done.
+To github.com:krishna-birla/aniket-server-1.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+krishna:Aniket krishna.birla$
